@@ -2,7 +2,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
 
 const SocialSidebars = () => {
   return (
@@ -32,6 +33,26 @@ const SocialSidebars = () => {
               className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
             >
               <FiLinkedin size={20} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/mdsab123sagari"
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
+            >
+              <FiFacebook size={20} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://x.com/Mohammedsagari"
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
+            >
+              <FaXTwitter size={20} />
             </a>
           </li>
         </ul>

@@ -1,7 +1,8 @@
 
 "use client";
 
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -23,6 +24,22 @@ const Footer = () => {
           className="hover:text-green transition-colors"
         >
           <FiLinkedin size={20} />
+        </a>
+        <a
+          href="https://www.facebook.com/mdsab123sagari"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-green transition-colors"
+        >
+          <FiFacebook size={20} />
+        </a>
+        <a
+          href="https://x.com/Mohammedsagari"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-green transition-colors"
+        >
+          <FaXTwitter size={20} />
         </a>
       </div>
 
