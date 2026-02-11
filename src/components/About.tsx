@@ -40,16 +40,26 @@ const About = () => {
               MKCL.
             </p>
             <p>
-              I hold a Master of Science in Computer Science from <span className="text-green">Savitribai Phule Pune University</span>.
+              I hold a Master of Science in Computer Science from <span className="text-green">Savitribai Phule Pune University</span> and
+              a Bachelor of Science in Computer System Administration from <span className="text-green">YCMOU University</span>.
             </p>
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{" "}
               <span className="text-green">LetsReflect</span> as a System Administrator. My main focus these days is
-              building accessible, inclusive products and digital experiences for a variety of clients worldwide.
+              building robust infrastructure, automating pipelines, and ensuring system reliability.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
             <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-sm">
-              {skills.map((skill, i) => (
+              {[
+                "Kubernetes & Docker",
+                "GitHub Actions & Jenkins",
+                "Ansible & Terraform",
+                "Prometheus & Grafana",
+                "AWS / GCP / DigitalOcean",
+                "Linux / Windows Server",
+                "SQL & NoSQL Databases",
+                "Nginx / Apache / IIS",
+              ].map((skill, i) => (
                 <li key={i} className="flex items-center gap-2">
                   <span className="text-green text-xs">▹</span>
                   {skill}

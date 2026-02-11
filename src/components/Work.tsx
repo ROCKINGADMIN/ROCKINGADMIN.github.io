@@ -6,24 +6,24 @@ import { FiExternalLink, FiGithub, FiFolder } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Automated Backup System",
+    title: "Infrastructure Automation & Security",
     description:
-      "Designed and implemented an automated backup solution using Ansible for full MySQL database backups. This significantly reduced manual effort and ensured data reliability and recovery.",
-    tech: ["Ansible", "MySQL", "Shell Scripting"],
+      "Automated infrastructure provisioning using Ansible and Proxmox VM templates. Implemented HashiCorp Vault for centralized secrets management integrated with CI/CD pipelines, improving security of application deployments.",
+    tech: ["Ansible", "Proxmox", "HashiCorp Vault"],
     links: { github: "#", external: "#" },
   },
   {
     title: "High Availability Monitoring",
     description:
-      "Deployed a comprehensive monitoring stack using Nagios, Zabbix, and Uptime Kuma. Configured proactive alerting for critical system resources across multiple servers and clients to ensure 99.9% uptime.",
-    tech: ["Nagios", "Zabbix", "Uptime Kuma"],
+      "Implemented centralized monitoring using Prometheus, Grafana, Loki, and Uptime Kuma. Configured proactive alerting for critical system resources across multiple servers to ensure high uptime and reduce troubleshooting time.",
+    tech: ["Prometheus", "Grafana", "Loki", "Uptime Kuma"],
     links: { github: "#", external: "#" },
   },
   {
-    title: "Cloud Infrastructure Setup",
+    title: "Kubernetes Orchestration",
     description:
-      "Managed and optimized multi-cloud environments across AWS, GCP, and DigitalOcean. Utilized EC2, S3, RDS, and Route 53 to build scalable and secure infrastructure for various applications.",
-    tech: ["AWS", "GCP", "DigitalOcean", "Terraform"],
+      "Built and administered Kubernetes clusters using kubeadm, Helm, and Argo CD. Enabled automated deployments and improved scalability of microservices-based applications across development and production.",
+    tech: ["Kubernetes", "Helm", "Argo CD", "Docker"],
     links: { github: "#", external: "#" },
   },
 ];

@@ -61,7 +61,7 @@ const Navbar = () => {
             transition={{ duration: 0.3, delay: navLinks.length * 0.1 }}
           >
             <Link
-              href="/resume.pdf"
+              href="/Mohammed_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green border border-green rounded px-4 py-2 font-mono text-sm hover:bg-green/10 transition-colors"
