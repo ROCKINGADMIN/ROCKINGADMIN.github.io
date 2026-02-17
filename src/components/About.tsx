@@ -71,7 +71,7 @@ const About = () => {
             <div className="absolute inset-0 border-2 border-green rounded translate-x-4 translate-y-4 transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
             <div className="relative z-10 bg-green/20 rounded overflow-hidden aspect-square group-hover:bg-transparent transition-colors">
               <img
-                src="/photo.jpg"
+                src="/profile.png"
                 alt="Wasim A. R. Shekh"
                 className="w-full h-full object-cover mix-blend-multiply grayscale hover:mix-blend-normal hover:grayscale-0 transition-all duration-300"
               />

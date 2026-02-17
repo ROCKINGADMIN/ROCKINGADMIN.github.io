@@ -45,7 +45,7 @@ const Hero = () => {
         transition={{ duration: 0.3, delay: 0.9 }}
       >
         <a
-          href="#"
+          href="/Wasim_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-green border border-green rounded px-6 py-4 font-mono text-sm hover:bg-green/10 transition-colors inline-block"
