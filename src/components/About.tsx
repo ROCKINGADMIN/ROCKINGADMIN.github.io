@@ -35,18 +35,18 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="md:col-span-2 text-slate text-lg leading-relaxed space-y-4">
             <p>
-              Hello! My name is Mohammed Sab Sagari and I enjoy optimizing systems and automating workflows. My interest
-              in IT infrastructure started back in 2018 when I began my journey as an Information Technology Fellow at
-              MKCL.
+              Hello! My name is Wasim A. R. Shekh and I enjoy optimizing cloud infrastructure and automating workflows. My interest
+              in IT infrastructure started back in 2012 when I began my journey as a Technical Instructor at
+              Industrial Training Institutes, Govt. of Maharashtra.
             </p>
             <p>
-              I hold a Master of Science in Computer Science from <span className="text-green">Savitribai Phule Pune University</span> and
-              a Bachelor of Science in Computer System Administration from <span className="text-green">YCMOU University</span>.
+              I hold a B.Sc. from <span className="text-green">Shobhit University</span> and
+              a Diploma in Computer Technology from <span className="text-green">Maharashtra Board of Technical Education</span>.
             </p>
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{" "}
-              <span className="text-green">LetsReflect</span> as a System Administrator. My main focus these days is
-              building robust infrastructure, automating pipelines, and ensuring system reliability.
+              Fast-forward to today, and I've had the privilege of working at{" "}
+              <span className="text-green">DisplaySweet India Pty Ltd</span> as a DevOps Engineer. My main focus these days is
+              managing AWS cloud infrastructure, CI/CD pipelines, and ensuring system reliability and security.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
             <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-sm">
@@ -72,7 +72,7 @@ const About = () => {
             <div className="relative z-10 bg-green/20 rounded overflow-hidden aspect-square group-hover:bg-transparent transition-colors">
               <img
                 src="/photo.jpg"
-                alt="Mohammed Sab Sagari"
+                alt="Wasim A. R. Shekh"
                 className="w-full h-full object-cover mix-blend-multiply grayscale hover:mix-blend-normal hover:grayscale-0 transition-all duration-300"
               />
             </div>

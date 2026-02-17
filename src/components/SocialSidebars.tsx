@@ -17,7 +17,7 @@ const SocialSidebars = () => {
         <ul className="flex flex-col gap-6 items-center m-0 p-0 list-none after:content-[''] after:block after:w-[1px] after:h-24 after:mx-auto after:bg-light-slate">
           <li>
             <a
-              href="https://github.com/mohammedssab"
+              href="https://github.com/ROCKINGADMIN"
               target="_blank"
               rel="noreferrer"
               className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
@@ -27,7 +27,7 @@ const SocialSidebars = () => {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/mohammed-sab-sagari"
+              href="https://linkedin.com/in/sheikh-wasim"
               target="_blank"
               rel="noreferrer"
               className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
@@ -35,26 +35,7 @@ const SocialSidebars = () => {
               <FiLinkedin size={20} />
             </a>
           </li>
-          <li>
-            <a
-              href="https://www.instagram.com/mohammed_sagari/"
-              target="_blank"
-              rel="noreferrer"
-              className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
-            >
-              <FiInstagram size={20} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://x.com/Mohammedsagari"
-              target="_blank"
-              rel="noreferrer"
-              className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
-            >
-              <FaXTwitter size={20} />
-            </a>
-          </li>
+
         </ul>
       </motion.div>
 
@@ -66,10 +47,10 @@ const SocialSidebars = () => {
       >
         <div className="flex flex-col gap-6 items-center m-0 p-0 after:content-[''] after:block after:w-[1px] after:h-24 after:mx-auto after:bg-light-slate">
           <a
-            href="mailto:mdsab123sagari@gmail.com"
+            href="mailto:vertualserver@gmail.com"
             className="p-2 my-5 text-xs font-mono tracking-widest hover:text-green hover:-translate-y-1 transition-all [writing-mode:vertical-rl]"
           >
-            mdsab123sagari@gmail.com
+            vertualserver@gmail.com
           </a>
         </div>
       </motion.div>
