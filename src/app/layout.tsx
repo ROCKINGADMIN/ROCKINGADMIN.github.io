@@ -1,18 +1,13 @@
-
 import type { Metadata } from "next";
-import { Inter, Fira_Code } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-fira-code" });
 
 export const metadata: Metadata = {
-  title: "Mohammed Sab Sagari | Systems Administrator & DevOps Engineer",
-  description: "Portfolio of Mohammed Sab Sagari, a System Administrator and DevOps Engineer.",
+  title: "Wasim A. R. Shekh | DevOps Engineer",
+  description: "Portfolio and Resume of Wasim A. R. Shekh, DevOps Engineer.",
 };
-
-import Navbar from "@/components/Navbar";
-import SocialSidebars from "@/components/SocialSidebars";
 
 export default function RootLayout({
   children,
@@ -21,9 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${firaCode.variable} font-sans bg-navy text-slate antialiased`}>
-        <Navbar />
-        <SocialSidebars />
+      <body className={`${inter.variable} font-sans bg-slate-900 text-slate-100 antialiased`}>
         {children}
       </body>
     </html>
