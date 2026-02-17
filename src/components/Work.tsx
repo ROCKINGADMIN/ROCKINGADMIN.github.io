@@ -6,24 +6,24 @@ import { FiExternalLink, FiGithub, FiFolder } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Infrastructure Automation & Security",
+    title: "AWS Cloud Infrastructure & CI/CD",
     description:
-      "Automated infrastructure provisioning using Ansible and Proxmox VM templates. Implemented HashiCorp Vault for centralized secrets management integrated with CI/CD pipelines, improving security of application deployments.",
-    tech: ["Ansible", "Proxmox", "HashiCorp Vault"],
+      "Managed AWS cloud infrastructure with ECS, RDS, S3, CloudFormation. Implemented GitLab CI/CD pipelines reducing build time from ~1 hour to ~20 minutes. Automated deployments with Lambda and EventBridge.",
+    tech: ["AWS", "GitLab CI/CD", "Docker", "CloudFormation", "Lambda"],
     links: { github: "#", external: "#" },
   },
   {
-    title: "High Availability Monitoring",
+    title: "Security & Compliance Implementation",
     description:
-      "Implemented centralized monitoring using Prometheus, Grafana, Loki, and Uptime Kuma. Configured proactive alerting for critical system resources across multiple servers to ensure high uptime and reduce troubleshooting time.",
-    tech: ["Prometheus", "Grafana", "Loki", "Uptime Kuma"],
+      "Implemented GuardDuty, CloudTrail, WAF, and least-privilege IAM policies. Supported ISO and SOC compliance activities including security controls, VAPT, and patch management. Enhanced edge security with CloudFront.",
+    tech: ["AWS Security", "GuardDuty", "CloudTrail", "WAF", "ISO/SOC"],
     links: { github: "#", external: "#" },
   },
   {
-    title: "Kubernetes Orchestration",
+    title: "Monitoring & Cost Optimization",
     description:
-      "Built and administered Kubernetes clusters using kubeadm, Helm, and Argo CD. Enabled automated deployments and improved scalability of microservices-based applications across development and production.",
-    tech: ["Kubernetes", "Helm", "Argo CD", "Docker"],
+      "Implemented CloudWatch monitoring and alerting reducing incidents by ~60%. Optimized AWS resources reducing costs by ~40% through lifecycle strategies for snapshots and S3. Managed backup and DR processes.",
+    tech: ["CloudWatch", "AWS Cost Optimization", "S3 Lifecycle", "DR"],
     links: { github: "#", external: "#" },
   },
 ];
@@ -40,7 +40,7 @@ const Work = () => {
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-lightest-slate whitespace-nowrap">
             <span className="text-green font-mono text-xl mr-2">03.</span>
-            Some Things I’ve Built
+            Some Things I've Built
           </h2>
           <div className="h-[1px] w-full max-w-xs bg-lightest-navy/50"></div>
         </div>
